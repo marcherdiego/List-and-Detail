@@ -29,5 +29,5 @@ jobs:
 general:
   branches:
     only:
-     - master # list of branches to build
+     - develop # list of branches to build
      - /feature-.*/ # or regexes
