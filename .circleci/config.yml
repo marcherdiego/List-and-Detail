@@ -26,3 +26,8 @@ jobs:
           destination: reports
       - store_test_results:
           path: app/build/test-results
+general:
+  branches:
+    only:
+     - master # list of branches to build
+     - /feature-.*/ # or regexes
